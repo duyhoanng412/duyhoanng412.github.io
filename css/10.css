@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+}
+h1{
+	color:#42eff5;
+	text-align: center;
+	padding:80px;
+}
+
+h1{
+	background-color: #f542d7;
+}
+
+h2{
+	color:green;
+}
+nav {
+	background-color:#f54242;
+	padding:20px;
+	overflow: hidden;
+}
+nav a{
+	color:White;
+	padding: 14px 20px;
+	/*display:block;*/
+	text-decoration: none;
+}
+.bên_trái{
+	float:left;
+}
+.bên_phải{
+	float:right;
+}
+nav a:hover{
+	background-color:White;
+	color:black;
+}

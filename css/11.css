@@ -1,0 +1,40 @@
+body {
+		background-image: url(https://batterydown.vn/wp-content/uploads/2022/05/hinh-lofi-tam-trang-tuyet-dep.gif );
+	}
+.overlay-image {
+	position: absolute;
+	top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
+	left: 750px; /* Điều chỉnh vị trí theo yêu cầu */
+	width: 150px; /* Điều chỉnh kích thước theo yêu cầu */
+	height: 150px;
+	z-index: 2;
+	border-radius:  50%;
+	overflow: hidden;
+}
+.social-link {
+	position: absolute;
+	top:260px;
+	left:750px;
+	font-size: 20px;
+}
+div a {
+	color: White;
+	text-decoration: none;
+}
+div a:hover{
+	color:pink;
+}
+.Facebook {
+	position: absolute;
+	top: 250px; /* Điều chỉnh vị trí theo yêu cầu */
+	left: 710px; /* Điều chỉnh vị trí theo yêu cầu */
+	width:30px;
+	height: 25px
+}
+.Tiktok {
+	position: absolute;
+	top: 290px; /* Điều chỉnh vị trí theo yêu cầu */
+	left: 710px; /* Điều chỉnh vị trí theo yêu cầu */
+	width:30px;
+	height: 25px
+}

@@ -1,0 +1,51 @@
+
+h1 {
+	background-color: #8A2BE2;
+	padding:30px;
+	margin:0px;
+}
+#bb {
+	background-color: #8A2BE2;
+	padding:5px;
+	font-size: 20px;
+}
+nav {
+	background-color: #00FFFF;
+	padding:20px;
+	margin:0px;
+}
+nav a {
+	color:White;
+	padding:14px 20px;
+	text-decoration: none;
+}
+nav a:hover {
+	color:black;
+	background-color:White;
+}
+#left {
+	flex:70%;
+	background-color: #FFFACD;
+	padding:10px 20px;
+}
+#right {
+	flex: 30%;
+	background-color: #FFB6C1;
+	padding-left: 15px;
+}
+.tranformation {
+	display: flex;
+	flex-wrap: nowrap;
+}
+@media (max-width: 900px) {
+	#left {
+		flex:100%;
+	}
+	#right {
+		flex:100%;
+	}
+	.tranformation {
+	display: flex;
+	flex-wrap: wrap;
+    }
+}

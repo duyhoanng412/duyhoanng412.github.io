@@ -1,0 +1,66 @@
+h2 {
+	color:#347aeb;
+}
+.duyhoang {
+	font-size: 20px;
+}
+.picture {
+	width:400px;
+	height: 400px;
+	text-align: center;
+	padding:50px;
+}
+.ok {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	padding:50px;
+}
+.tt {
+	padding:10px;
+	font-size: 25px;
+	padding: 0px 10px 10px 10px;
+	margin-right: 10px;
+}
+#haha {
+	font-size: 20px;
+}
+#container {
+	display: flex;
+}
+.ll {
+	text-align: center;
+	font-size: 50px;
+}
+.mm {
+	font-size: 20px;
+}
+.cách {
+	padding:20px;
+}
+footer {
+	background-color: #77fc03;
+	padding:20px;
+}
+nav a {
+	color:White;
+	text-decoration: none;
+	padding:14px 20px;
+}
+nav a:hover {
+	background-color: pink;
+	color:red;
+}
+#menu {
+	background-color: #03d3fc;
+	padding:20px;
+}
+#menu a {
+	text-decoration:none;
+	color: White;
+	padding:14px 20px;
+}
+#menu a:hover {
+	background-color:black;
+	color:White;
+}
