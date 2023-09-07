@@ -87,3 +87,8 @@ footer {
 	left:590px;
 	border-radius: 50%;
 }
+@media(max-width: 800px) {
+	body {
+	   background-image: repeat-y;
+	}
+}
