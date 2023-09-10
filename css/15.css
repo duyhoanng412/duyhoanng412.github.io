@@ -1,17 +1,33 @@
 body {
-    background-image: url(https://haycafe.vn/wp-content/uploads/2022/08/Hinh-anh-gif-buon-465x600.gif);
-    background-repeat: repeat-x;
-    background-size: 800px ;
+    background-image: url(https://wallpaperaccess.com/full/2641100.gif);
+    background-repeat: no-repeat ;
 }
 #ảnh {
     position: absolute;
     top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
     left: 750px;
+    border: 2px solid #fff;
+    border-radius: 60%;
+    box-shadow: red 0px 2px 8px 0px;
+}
+h1 {
+    position: absolute;
+    top: 280px; /* Điều chỉnh vị trí theo yêu cầu */
+    left: 700px;
+    padding:20px;
+    background-color: white;
+    display: flex;
+    background-color: rgba(232, 232, 232, 0.5);
+    width: 250px;
+    border-radius: 81px 90px;
+    border:2px solid black;
 }
 #form {
     position: absolute;
     top: 300px; /* Điều chỉnh vị trí theo yêu cầu */
     left: 650px;
+    display:flex;
+    margin: 10px;
 }
 #picture {
     width: 200px;
@@ -28,26 +44,44 @@ a {
     text-align: center;
 }
 .thẻ {
+    position: absolute;
+    top:210px;
     margin:10px;
     padding:20px;
     display: flex;
-    background-color: White;
+    background-color: rgba(232, 232, 232, 0.5);
     width: 300px;
     border-radius: 81px 90px;
+    border:1px solid black;
+}
+#th {
+    position: absolute;
+    top:115px;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    background-color: rgba(232, 232, 232, 0.5);
+    width: 300px;
+    border-radius: 81px 90px;
+    border:1px solid black;
 }
 a:hover {
     color:white;
     background-color: black;
 }
 #sdt {
+    position: absolute;
     text-decoration:none;
     color: black;
     font-size: 20px;
-    background-color: White;
+    background-color: rgba(232, 232, 232, 0.5);
     margin:10px;
     display: flex;
     padding:20px;
     border-radius: 81px 90px;
+    top:300px;
+    width: 300px;
+    border:1px solid black;
 }
 #sdt:hover {
     background-color: black;
@@ -57,41 +91,41 @@ a:hover {
     position: absolute;
     width: 60px;
     height: 60px;
-    top:10px;
+    top:120px;
     left:-70px;
 }
 #sdthoang {
     position: absolute;
     width: 60px;
     height: 60px;
-    top:220px;
+    top:310px;
     left:-70px;
 }
 #tiktok {
     position: absolute;
     width: 70px;
     height: 70px;
-    top:100px;
+    top:215px;
     left:-70px;
 }
 footer {
     position: absolute;
-    top:700px;
+    top:750px;
     left:700px;
 }
 .suyt {
     position: absolute;
     width: 90px;
     height: 90px;
-    top:679px;
+    top:730px;
     left:590px;
     border-radius: 50%;
 }
 @media(max-width: 990px) {
         /* CSS chung cho mọi kích thước màn hình */
     body {
-        background-image: url(https://haycafe.vn/wp-content/uploads/2022/08/Hinh-anh-gif-buon-465x600.gif);
-        background-repeat: repeat-x;
+        background-image: url(https://wallpaperaccess.com/full/2641100.gif);
+        background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         margin: 0;
@@ -107,29 +141,42 @@ footer {
     }
 
     #ảnh {
-        margin-top: 200px;
+        margin-top: 20px;
     }
 
     #form {
-        margin-top: 240px;
+        margin-top: 60px;
     }
     .thẻ {
         text-align: center; 
     }
-    footer {
-        top:270px;
+   
 
 }
  /* Media Queries cho điện thoại */
-@media (max-width: 767px) {
-     #form {
-            text-align:center;/* Căn giữa nội dung trong trường hợp này */
+@media (max-width: 1000px) {
+    #form {
+        text-align: center;
     }
+    #ảnh {
+        text-align: center;
+    }
+    h1 {
+       text-align: center;
+    }
+
 }
 
     /* Media Queries cho iPad */
  @media (min-width: 768px) and (max-width: 1024px) {
     #form {
-            text-align: center; /* Căn giữa nội dung trong trường hợp này */
+        text-align: center;
     }
+    #ảnh {
+        text-align: center;
+    }
+    h1 {
+       text-align: center;
+    }
+
 }
