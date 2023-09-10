@@ -107,11 +107,11 @@ footer {
     }
 
     #ảnh {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     #form {
-        margin-top: 60px;
+        margin-top: 90px;
     }
     .thẻ {
         text-align: center; 
@@ -121,14 +121,14 @@ footer {
 }
  /* Media Queries cho điện thoại */
 @media (max-width: 767px) {
-     #thẻ {
-            top:100px;/* Căn giữa nội dung trong trường hợp này */
+     #form {
+            text-align:center;/* Căn giữa nội dung trong trường hợp này */
     }
 }
 
     /* Media Queries cho iPad */
  @media (min-width: 768px) and (max-width: 1024px) {
-    #thẻ {
+    #form {
             text-align: center; /* Căn giữa nội dung trong trường hợp này */
     }
 }
