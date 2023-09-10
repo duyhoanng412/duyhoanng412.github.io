@@ -122,13 +122,13 @@ footer {
  /* Media Queries cho điện thoại */
 @media (max-width: 767px) {
      #thẻ {
-            text-align: center; /* Căn giữa nội dung trong trường hợp này */
+            top:100px;/* Căn giữa nội dung trong trường hợp này */
     }
 }
 
     /* Media Queries cho iPad */
  @media (min-width: 768px) and (max-width: 1024px) {
-    #thẻs {
+    #thẻ {
             text-align: center; /* Căn giữa nội dung trong trường hợp này */
     }
 }
