@@ -1,94 +1,134 @@
 body {
-	background-image: url(https://haycafe.vn/wp-content/uploads/2022/08/Hinh-anh-gif-buon-465x600.gif);
-	background-repeat: repeat-x;
-	background-size: 800px ;
+    background-image: url(https://haycafe.vn/wp-content/uploads/2022/08/Hinh-anh-gif-buon-465x600.gif);
+    background-repeat: repeat-x;
+    background-size: 800px ;
 }
 #ảnh {
-	position: absolute;
-	top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
-	left: 750px;
+    position: absolute;
+    top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
+    left: 750px;
 }
 #form {
-	position: absolute;
-	top: 300px; /* Điều chỉnh vị trí theo yêu cầu */
-	left: 650px;
+    position: absolute;
+    top: 300px; /* Điều chỉnh vị trí theo yêu cầu */
+    left: 650px;
 }
 #picture {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
-	left: 750px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: 50px; /* Điều chỉnh vị trí theo yêu cầu */
+    left: 750px;
 }
 a {
-	text-decoration:none;
-	color: black;
-	font-size: 20px;
-	text-align: center;
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
 }
 .thẻ {
-	margin:10px;
-	padding:20px;
-	display: flex;
-	background-color: White;
-	width: 300px;
-	border-radius: 81px 90px;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    background-color: White;
+    width: 300px;
+    border-radius: 81px 90px;
 }
 a:hover {
-	color:white;
-	background-color: black;
+    color:white;
+    background-color: black;
 }
 #sdt {
-	text-decoration:none;
-	color: black;
-	font-size: 20px;
-	background-color: White;
-	margin:10px;
-	display: flex;
-	padding:20px;
-	border-radius: 81px 90px;
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    background-color: White;
+    margin:10px;
+    display: flex;
+    padding:20px;
+    border-radius: 81px 90px;
 }
 #sdt:hover {
-	background-color: black;
-	color:White;
+    background-color: black;
+    color:White;
 }
 #facebook {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	top:10px;
-	left:-70px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:10px;
+    left:-70px;
 }
 #sdthoang {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	top:220px;
-	left:-70px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:220px;
+    left:-70px;
 }
 #tiktok {
-	position: absolute;
-	width: 70px;
-	height: 70px;
-	top:100px;
-	left:-70px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top:100px;
+    left:-70px;
 }
 footer {
-	position: absolute;
-	top:700px;
-	left:700px;
+    position: absolute;
+    top:700px;
+    left:700px;
 }
 .suyt {
-	position: absolute;
-	width: 90px;
-	height: 90px;
-	top:679px;
-	left:590px;
-	border-radius: 50%;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top:679px;
+    left:590px;
+    border-radius: 50%;
 }
-@media(max-width: 800px) {
-	body {
-	   background-image: repeat-y;
-	}
+@media(max-width: 990px) {
+        /* CSS chung cho mọi kích thước màn hình */
+    body {
+        background-image: url(https://haycafe.vn/wp-content/uploads/2022/08/Hinh-anh-gif-buon-465x600.gif);
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh; /* Sử dụng chiều cao 100% của viewport để căng giữa */
+    }
+
+    #ảnh {
+        margin-top: 20px;
+    }
+
+    #form {
+        margin-top: 60px;
+    }
+    .thẻ {
+        text-align: center; 
+    }
+   
+
+}
+ /* Media Queries cho điện thoại */
+@media (max-width: 767px) {
+     #thẻ {
+            text-align: center; /* Căn giữa nội dung trong trường hợp này */
+    }
+}
+
+    /* Media Queries cho iPad */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    #thẻs {
+            text-align: center; /* Căn giữa nội dung trong trường hợp này */
+    }
 }
