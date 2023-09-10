@@ -107,16 +107,17 @@ footer {
     }
 
     #ảnh {
-        margin-top: 50px;
+        margin-top: 200px;
     }
 
     #form {
-        margin-top: 90px;
+        margin-top: 240px;
     }
     .thẻ {
         text-align: center; 
     }
-   
+    footer {
+        top:270px;
 
 }
  /* Media Queries cho điện thoại */
